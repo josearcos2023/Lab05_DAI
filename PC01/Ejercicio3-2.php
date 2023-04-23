@@ -27,7 +27,7 @@
         </nav>
     </div>    
     <?php
-            $precio = $_POST["precio"];
+            $precio = $_POST["tarifa"];
             $cant = $_POST["cant"];
 
             $importeBruto=$precio*$cant;
